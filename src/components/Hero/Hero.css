@@ -680,3 +680,56 @@
 }
 
 
+
+/* =========================
+   LEADER TAG
+========================= */
+
+.leader-tag{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  gap:14px;
+
+  padding:12px 24px;
+
+  border-radius:50px;
+
+  margin-bottom:28px;
+
+  background:
+  rgba(255,255,255,0.15);
+
+  backdrop-filter:blur(12px);
+
+  border:
+  1px solid rgba(255,255,255,0.18);
+
+  color:white;
+
+  font-size:15px;
+
+  font-weight:600;
+
+  letter-spacing:0.4px;
+
+  box-shadow:
+  0 8px 24px rgba(0,0,0,0.18);
+}
+
+/* SMALL LINE */
+
+.tag-line{
+
+  width:36px;
+
+  height:3px;
+
+  border-radius:20px;
+
+  background:#ffd84d;
+
+  display:block;
+}

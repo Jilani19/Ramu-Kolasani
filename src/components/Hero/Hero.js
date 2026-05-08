@@ -137,7 +137,7 @@ function Hero() {
               <div className="welfare-box">
 
                 <img
-                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+                  src="https:https://india.un.org/sites/default/files/styles/featured_image/public/2022-02/UN0122069%20-%20Copy.jpeg?itok=cKNQOHvK"
                   alt="Education"
                 />
 
@@ -148,7 +148,7 @@ function Hero() {
               <div className="welfare-box">
 
                 <img
-                  src="https://www.google.com/imgres?q=Women%20Empowerment%20Drive&imgurl=https%3A%2F%2Friddhisiddhicharitabletrust.org%2Fstatic%2Fimages%2FWomens-Empowerment%2FWomens-Empowerment.webp&imgrefurl=https%3A%2F%2Friddhisiddhicharitabletrust.org%2Fwomen-empowerment&docid=Y-AanHzpVOxQeM&tbnid=qGUOnkTlUdeyyM&vet=12ahUKEwjvi--dw6qUAxVD3TgGHQ_vM9AQnPAOegQIHhAB..i&w=2369&h=1080&hcb=2&ved=2ahUKEwjvi--dw6qUAxVD3TgGHQ_vM9AQnPAOegQIHhAB"
+                  src="https://riddhisiddhicharitabletrust.org/static/images/Womens-Empowerment/Womens-Empowerment.webp"
                   alt="Women Empowerment"
                 />
 

@@ -1,0 +1,341 @@
+.volunteer-page{
+  width:100%;
+  background:#f5f6fb;
+  padding-top:120px;
+  padding-bottom:80px;
+}
+
+.volunteer-container{
+  width:92%;
+  max-width:1450px;
+  margin:auto;
+}
+
+/* HERO */
+
+.volunteer-hero{
+  position:relative;
+  height:340px;
+  border-radius:26px;
+  overflow:hidden;
+  margin-bottom:45px;
+
+  background-image:
+  url("https://images.indianexpress.com/2024/06/chandrababu-naidu-1.jpg");
+
+  background-size:cover;
+  background-position:center;
+}
+
+.volunteer-overlay{
+  position:absolute;
+  inset:0;
+
+  background:
+  linear-gradient(
+    to right,
+    rgba(0,0,0,0.78),
+    rgba(0,0,0,0.28)
+  );
+}
+
+.volunteer-content{
+  position:relative;
+  z-index:2;
+
+  height:100%;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+  padding:60px;
+
+  color:white;
+}
+
+.volunteer-content p{
+  font-size:15px;
+  margin-bottom:18px;
+  opacity:0.9;
+}
+
+.volunteer-content h1{
+  font-size:60px;
+  line-height:1.2;
+  margin-bottom:20px;
+}
+
+.volunteer-content span{
+  max-width:760px;
+  font-size:18px;
+  line-height:1.9;
+}
+
+/* MAIN */
+
+.volunteer-wrapper{
+  display:grid;
+  grid-template-columns:430px 1fr;
+  gap:35px;
+  margin-bottom:60px;
+}
+
+/* FORM */
+
+.volunteer-form-box{
+  background:white;
+  border-radius:24px;
+  padding:38px;
+
+  box-shadow:
+  0 10px 28px rgba(0,0,0,0.08);
+
+  border-top:6px solid #facc15;
+}
+
+.volunteer-form-box h2{
+  font-size:34px;
+  color:#122046;
+  margin-bottom:28px;
+}
+
+.input-group{
+  margin-bottom:22px;
+}
+
+.input-group label{
+  display:block;
+  margin-bottom:9px;
+  font-weight:600;
+  color:#111827;
+}
+
+.input-group input{
+  width:100%;
+  height:54px;
+  border:1px solid #dcdfe4;
+  border-radius:14px;
+  padding:0 16px;
+  font-size:15px;
+}
+
+.input-group input:focus{
+  outline:none;
+  border-color:#2563eb;
+
+  box-shadow:
+  0 0 0 4px rgba(37,99,235,0.1);
+}
+
+/* CHECKBOX */
+
+.checkbox-section{
+  margin-top:28px;
+}
+
+.checkbox-section h4{
+  margin-bottom:18px;
+  font-size:18px;
+  color:#122046;
+}
+
+.checkbox-section label{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:15px;
+  color:#374151;
+  font-weight:500;
+}
+
+.checkbox-section input{
+  width:18px;
+  height:18px;
+}
+
+/* BUTTON */
+
+.volunteer-form-box button{
+  width:100%;
+  height:58px;
+  border:none;
+  background:#f59e0b;
+  color:white;
+  border-radius:16px;
+  font-size:17px;
+  font-weight:700;
+  margin-top:30px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.volunteer-form-box button:hover{
+  background:#ea580c;
+  transform:translateY(-2px);
+}
+
+/* RIGHT */
+
+.volunteer-right{
+  display:flex;
+  flex-direction:column;
+  gap:25px;
+}
+
+.volunteer-image{
+  overflow:hidden;
+  border-radius:26px;
+  height:520px;
+
+  box-shadow:
+  0 10px 28px rgba(0,0,0,0.08);
+}
+
+.volunteer-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:0.5s;
+}
+
+.volunteer-image:hover img{
+  transform:scale(1.05);
+}
+
+/* STATS */
+
+.volunteer-stats{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.stat-card{
+  background:white;
+  border-radius:20px;
+  padding:30px 20px;
+  text-align:center;
+
+  box-shadow:
+  0 8px 24px rgba(0,0,0,0.08);
+
+  border-top:5px solid #facc15;
+}
+
+.stat-card h2{
+  font-size:40px;
+  color:#f59e0b;
+  margin-bottom:12px;
+}
+
+.stat-card p{
+  color:#4b5563;
+  line-height:1.6;
+  font-weight:500;
+}
+
+/* VOLUNTEERS */
+
+.volunteer-list-section h2{
+  font-size:44px;
+  color:#122046;
+  margin-bottom:30px;
+}
+
+.volunteer-list{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+
+.volunteer-card{
+  background:white;
+  border-radius:22px;
+  padding:22px;
+
+  display:flex;
+  align-items:center;
+  gap:18px;
+
+  box-shadow:
+  0 8px 24px rgba(0,0,0,0.08);
+
+  transition:0.3s;
+}
+
+.volunteer-card:hover{
+  transform:translateY(-5px);
+
+  box-shadow:
+  0 18px 35px rgba(0,0,0,0.14);
+}
+
+.volunteer-card img{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid #facc15;
+}
+
+.volunteer-card h3{
+  font-size:22px;
+  color:#122046;
+  margin-bottom:8px;
+}
+
+.volunteer-card p{
+  color:#6b7280;
+  line-height:1.6;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1150px){
+
+  .volunteer-wrapper{
+    grid-template-columns:1fr;
+  }
+
+  .volunteer-list{
+    grid-template-columns:1fr 1fr;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .volunteer-content{
+    padding:40px 24px;
+  }
+
+  .volunteer-content h1{
+    font-size:38px;
+  }
+
+  .volunteer-stats{
+    grid-template-columns:1fr;
+  }
+
+  .volunteer-list{
+    grid-template-columns:1fr;
+  }
+
+  .volunteer-form-box{
+    padding:28px 22px;
+  }
+
+}
+
+@media(max-width:550px){
+
+  .volunteer-hero{
+    height:auto;
+  }
+
+  .volunteer-content span{
+    font-size:16px;
+  }
+
+}

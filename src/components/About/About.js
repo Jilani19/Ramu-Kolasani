@@ -23,7 +23,7 @@ function About() {
               alt="Leader"
             />
 
-            <h2>Ramu Kalasani</h2>
+            <h2>Ramu Kolasani</h2>
 
             <p>
               Dedicated Leader Serving the Community

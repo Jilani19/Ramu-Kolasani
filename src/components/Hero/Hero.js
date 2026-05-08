@@ -11,6 +11,13 @@ function Hero() {
         {/* =========================
             HERO TOP SECTION
         ========================= */}
+    <div className="leader-tag">
+
+  <span className="tag-line"></span>
+
+  Ramu Kolasani • Visionary Youth Leader
+
+</div>
 
         <div className="hero-top">
 

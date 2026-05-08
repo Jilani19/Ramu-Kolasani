@@ -4,7 +4,17 @@ import {
   NavLink
 } from "react-router-dom";
 
+import {
+  useState
+} from "react";
+
 function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
 
@@ -16,66 +26,91 @@ function Navbar() {
 
         <div className="logo">
 
-          <NavLink to="/">
+          <NavLink
+            to="/"
+            onClick={closeMenu}
+          >
             Ramu Kolasani
           </NavLink>
 
         </div>
 
-        {/* NAV LINKS */}
+        {/* MOBILE MENU ICON */}
 
-        <ul className="nav-links">
+        <div
+          className="menu-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+
+          {menuOpen ? "✕" : "☰"}
+
+        </div>
+
+        {/* NAVIGATION */}
+
+        <ul
+          className={
+            menuOpen
+              ? "nav-links active"
+              : "nav-links"
+          }
+        >
 
           <li>
-            <NavLink to="/">
+            <NavLink
+              to="/"
+              onClick={closeMenu}
+            >
               Home
             </NavLink>
           </li>
 
           <li>
-            <NavLink to="/about">
+            <NavLink
+              to="/about"
+              onClick={closeMenu}
+            >
               About
             </NavLink>
           </li>
 
           <li>
-            <NavLink to="/initiatives">
+            <NavLink
+              to="/initiatives"
+              onClick={closeMenu}
+            >
               Initiatives
             </NavLink>
           </li>
 
           <li>
-            <NavLink to="/news">
+            <NavLink
+              to="/news"
+              onClick={closeMenu}
+            >
               News
             </NavLink>
           </li>
 
           <li>
-            <NavLink to="/gallery">
+            <NavLink
+              to="/gallery"
+              onClick={closeMenu}
+            >
               Gallery
             </NavLink>
           </li>
 
           <li>
-            <NavLink to="/volunteer">
+            <NavLink
+              to="/volunteer"
+              onClick={closeMenu}
+            >
               Volunteer
             </NavLink>
           </li>
 
         </ul>
-
-        {/* BUTTON */}
-
-        <div className="nav-buttons">
-
-          <NavLink
-            to="/volunteer"
-            className="join-btn"
-          >
-            Join Us
-          </NavLink>
-
-        </div>
 
       </div>
 
